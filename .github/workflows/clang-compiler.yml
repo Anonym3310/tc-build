@@ -28,4 +28,4 @@ jobs:
       run: |
         export PATH=/usr/bin/core_perl:$PATH
         bash ci.sh deps
-        bash clang-builder.sh :v
+        bash clang-builder.sh 14
